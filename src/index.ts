@@ -6,6 +6,8 @@ import {
   handleNewSubscription,
 } from "./api-utils/subscritionHandler";
 import { tradeHandler } from "./api-utils/tradeHandler";
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 const AppState = new Map<string, any>();
 
